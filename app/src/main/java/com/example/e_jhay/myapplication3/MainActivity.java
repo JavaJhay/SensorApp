@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     Sensor acc;
     TextView outputX, outputY, outputZ;
 
+    //Test Message for GitHub
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
