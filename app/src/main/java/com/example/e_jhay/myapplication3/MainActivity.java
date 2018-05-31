@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         outputY.setText("y: " + values[1]);
         outputZ.setText("z: " + values[2]);
 
+        if(values[0]>1){
+            
+        }
+
     }
 
     @Override
